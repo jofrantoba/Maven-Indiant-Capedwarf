@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<capedwarf-web-app>   
+    <admin>chescot2302@gmail.com</admin>
+    <admin>cramirez@kiongo.com</admin>
+    <admin>jonathan@kiongo.com</admin>
+    <admin>team@kiongo.com</admin>       
+    <mail>
+        <property name="mail.transport.protocol">smtp</property>
+        <property name="mail.smtp.auth">true</property>
+        <property name="mail.smtp.starttls.enable">true</property>
+        <property name="mail.smtp.host">smtp.gmail.com</property>
+        <property name="mail.smtp.port">587</property>
+        <property name="mail.smtp.user">team@kiongo.com</property>
+        <property name="mail.smtp.password">Nu11qs0ftNu11</property>
+    </mail>
+    <inbound-mail>
+        <protocol>imaps</protocol>
+        <host>imap.gmail.com</host>
+        <user>team@kiongo.com</user>
+        <password>Nu11qs0ftNu11</password>
+        <folder>INBOX</folder>
+        <pollingInterval>10000</pollingInterval>
+    </inbound-mail>
+    <xmpp>
+        <host>talk.l.google.com</host>
+        <port>5222</port>
+        <username>team@kiongo.com</username>
+        <password>Nu11qs0ftNu11</password>
+    </xmpp>             
+</capedwarf-web-app>

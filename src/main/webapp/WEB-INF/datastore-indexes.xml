@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datastore-indexes autoGenerate="true">
+<!-- Used 1 time in query history -->
+    <datastore-index kind="Moneda" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="Pais" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="nombre" direction="asc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="Pais" ancestor="false" source="auto">
+        <property name="generador" direction="asc"/>
+        <property name="isPersistente" direction="asc"/>
+        <property name="nombre" direction="asc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="ParametrosSistema" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="EstadoAmistad" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="EstadoCuenta" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="EstadoMiembro" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="EstadoSolicAmistad" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="Privacidad" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="CategoriaNegocio" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="CategoriaDestino" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="Idioma" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="Region" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="Localidad" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="RedSocial" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="TipoEmpatia" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="TipoInterPublicidad" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="TipoMovimiento" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="TipoNotificacion" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="TipoSuscripcion" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="UsuarioAdmin" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="Tarifario" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="Moneda" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="PaisMoneda" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="TipoCambio" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="EntidadFinanciera" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="CasaTarjeta" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="FormaPago" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="EstadoSolicAmistad" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+    <!-- Used 2 times in query history -->
+    <datastore-index kind="MuroNoticia" ancestor="false" source="auto">
+        <property name="isPersistente" direction="asc"/>
+        <property name="visto" direction="asc"/>
+        <property name="correoTuristaMuro" direction="asc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="Noticia" ancestor="false" source="auto">
+        <property name="correoTuristaGeneraNoticia" direction="asc"/>
+        <property name="version" direction="asc"/>
+    </datastore-index>
+
+ <!-- Used 1 time in query history -->
+    <datastore-index kind="Empatia" ancestor="false" source="auto">
+        <property name="codeTuristaDos" direction="asc"/>
+        <property name="version" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 2 times in query history -->
+    <datastore-index kind="Conquista" ancestor="false" source="auto">
+        <property name="codeDestino" direction="asc"/>
+        <property name="codeTuristaConquista" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 2 times in query history -->
+    <datastore-index kind="Amistad" ancestor="false" source="auto">
+        <property name="codeTuristaPrincipal" direction="asc"/>
+        <property name="codeEstadoAmistad" direction="asc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="ComentarioNoticia" ancestor="false" source="auto">
+        <property name="codeNoticia" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+<!-- Used 1 time in query history -->
+    <datastore-index kind="Noticia" ancestor="false" source="auto">
+        <property name="correoTuristaGeneraNoticia" direction="asc"/>
+        <property name="fechaPublicacion" direction="desc"/>
+    </datastore-index>
+
+    <!-- Used 2 times in query history -->
+    <datastore-index kind="Noticia" ancestor="false" source="auto">
+        <property name="correoTuristaGeneraNoticia" direction="asc"/>
+        <property name="tipoNoticia" direction="asc"/>
+        <property name="fechaPublicacion" direction="desc"/>
+    </datastore-index>
+
+    <!-- Used 2 times in query history -->
+    <datastore-index kind="Miembro" ancestor="false" source="auto">
+        <property name="codeTurista" direction="asc"/>
+        <property name="codeEstadoMiembro" direction="asc"/>
+    </datastore-index>
+<!-- Used 2 times in query history -->
+    <datastore-index kind="Miembro" ancestor="false" source="auto">
+        <property name="codeColonia" direction="asc"/>
+        <property name="codeEstadoMiembro" direction="asc"/>
+    </datastore-index>
+
+	<!-- Used 1 time in query history -->
+    <datastore-index kind="NotificacionTurista" ancestor="false" source="auto">
+        <property name="codeTuristaRecibeNotificacion" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+<!-- Used 1 time in query history -->
+    <datastore-index kind="NotificacionTurista" ancestor="false" source="auto">
+        <property name="codeTuristaRecibeNotificacion" direction="asc"/>
+        <property name="visto" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>	
+<!-- Used 4 times in query history -->
+    <datastore-index kind="SolicitudAmistad" ancestor="false" source="auto">
+        <property name="codeTuristaEnvia" direction="asc"/>
+        <property name="codeTuristaRecibe" direction="asc"/>
+        <property name="codeEstadoSolicAmistad" direction="asc"/>
+    </datastore-index>
+	<datastore-index kind="Miembro" ancestor="false" source="auto">
+        <property name="codeColonia" direction="asc"/>
+        <property name="codeTurista" direction="asc"/>
+        <property name="codeEstadoMiembro" direction="asc"/>
+    </datastore-index>
+<!-- Used 1 time in query history -->
+    <datastore-index kind="ColoniaInteres" ancestor="false" source="auto">
+        <property name="codeColonia" direction="asc"/>
+        <property name="valorModaColoniaInteres" direction="desc"/>
+    </datastore-index>
+
+<datastore-index kind="ColoniaInteres" ancestor="false" source="manual">
+    	<property name="nacionalidad" direction="asc"/>      
+	<property name="valorModaColoniaInteres" direction="desc"/>   
+</datastore-index>
+
+<!-- Used 2 times in query history -->
+    <datastore-index kind="TuristaInteres" ancestor="false" source="auto">
+        <property name="codeTurista" direction="asc"/>
+        <property name="isPersistente" direction="asc"/>
+        <property name="valorModa" direction="desc"/>
+    </datastore-index>
+<!-- Used 2 times in query history -->
+    <datastore-index kind="Amistad" ancestor="false" source="auto">
+        <property name="codeTuristaAmigo" direction="asc"/>
+        <property name="codeTuristaPrincipal" direction="asc"/>
+        <property name="codeEstadoAmistad" direction="asc"/>
+    </datastore-index>
+
+	<datastore-index kind="TablonColonia" ancestor="false" source="auto">
+		<property name="codeColonia" direction="asc"/>
+		<property name="estadoTablon" direction="asc"/>
+		<property name="version" direction="asc"/>
+	</datastore-index>
+</datastore-indexes>

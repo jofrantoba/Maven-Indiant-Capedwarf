@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset=utf-8 />
+        <title>
+            Indiant
+        </title>
+        <link REL=StyleSheet HREF="css/indiantStyleSheet.css" TYPE="text/css">
+        <!--[if IE]>
+        <style type="text/css">
+        html, body,.reproductor,video, #videoIE{
+        height: 100%;
+        overflow: hidden;
+        }
+        </style>
+        <![endif]-->
+        <script language="javascript" type="text/javascript" src="js/indiantScript.js"></script>
+    </head>
+    <body>
+        <div class="cabecera">
+            <div class="logoindiant">               
+            </div>
+        </div>
+        <div class="contentpublicidad">
+            <div class="block">               
+            </div>
+            <div class="contentlogoname">  
+                <div class="logoindiantpublicidad">               
+                </div>
+                <div class="nameindiantpublicidad">               
+                </div>
+            </div>
+            <div class="logoplaystore">               
+            </div>
+            <div class="blockintent">               
+            </div>
+            <div class='redes-sociales'>          
+                <div class='facebook comun'>
+                    <img src='resources/sFb.png' width="32" height="32"/>
+                </div>
+                <div class='google comun'>
+                    <img src='resources/google-32.png'/>
+                </div>
+                <div class='twitter comun'>
+                    <img src='resources/twitter-32.png'/>           
+                </div>          
+            </div>
+        </div>
+        <div class="contentpatron">
+            <div class="fullscreen-bg">
+                <section class="reproductor">
+                    <video class="fullscreen-bg__video" controls="controls" poster="resources/fondIndiant.jpg" preload="auto" autoplay loop>
+                        <source src="resources/video indi.mp4" type="video/mp4" /> <!-- MPEG4 para Safari / IE -->
+                        <object type="application/x-shockwave-flash" data="player.swf" id="videoIE" standby="Cargando Video..." 
+                                title="Cargando Video..." width="320" height="240">
+                            <param name="movie" value="player.swf" />
+                            <param name="loop" value="true" /> 
+                            <param name="menu" value="true" />
+                            <param name="play" value="true" />
+                            <param name="bgcolor" value="#8897db" />
+                            <param name="flashvars" value="autostart=true&amp;file=/html5/vplayer-html5/ACDC.flv" />
+                            <p>Flash Palyer no se encuentra o la versión es compatible <br />
+                                <a href="http://get.adobe.com/es/flashplayer/" onclick="this.target = '_blank'">ir a la página de descarga</a>
+                            </p>
+                        </object>
+                    </video>
+                </section>
+            </div>  
+
+        </div>               
+    </body>
+</html>

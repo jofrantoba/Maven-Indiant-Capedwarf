@@ -1,0 +1,12 @@
+@def COLOR_APP_VERDE #009933;
+@def COLOR_APP_BLANCO #FFFFFF;
+@def COLOR_APP_GRIS #333333;
+
+#kngNavBar{
+	background-color: COLOR_APP_VERDE !important;	
+	margin-bottom: 0px !important;	
+}
+
+#kngNavBrand{
+	font-size: 1.5rem !important;
+}
